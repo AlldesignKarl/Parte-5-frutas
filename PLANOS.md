@@ -5,7 +5,7 @@
 Cómo usar este archivo:
 1. **Prompt de imagen** → pégalo en tu generador de imágenes (Midjourney, Nano Banana / Gemini, Flux, Leonardo, Ideogram…). Sube las **fichas de personaje** (ver `PERSONAJES.md`) como referencia para que salgan siempre iguales. El `--ar 9:16` es para Midjourney; en las demás elige formato vertical 9:16.
 2. **Prompt de animación** → sube la imagen generada a Kling, Hailuo, Veo, Runway o similar (imagen → vídeo) y pega este texto.
-3. Planos con diálogo **en cámara → lip-sync**: genera la voz con `VOCES.md` y aplica lip-sync al clip (función Lip Sync de Kling, Hedra, Sync o la que uses). Así se mueve la boca al hablar.
+3. En los planos con diálogo el prompt de animación ya pide la boca cerrada: la voz y el movimiento de la boca los añade después el motor de montaje.
 4. Si la herramienta genera clips de 5 o 10 s, recórtalos en el montaje a la duración indicada.
 
 **Prompt negativo** (si tu herramienta lo admite):
@@ -92,7 +92,7 @@ Close-up. Bruno (an anthropomorphic coconut man: his whole head is a real hairy 
 
 **🎬 Prompt de animación:**
 ```
-Bruno knocks on his own coconut head, it sounds hard; he smiles and cracks his neck while speaking. The speaking character talks with natural mouth and lip movement, subtle head and eyebrow motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
+Bruno knocks on his own coconut head, it sounds hard; he smiles and cracks his neck while speaking. Mouth closed, not talking, subtle breathing and natural idle motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
 ```
 
 **🗣️ Voz:**
@@ -135,7 +135,7 @@ Medium shot. Rocco (a huge anthropomorphic pineapple man: his head and body have
 
 **🎬 Prompt de animación:**
 ```
-Rocco elbows the thug, breaks free and shouts, pointing; Valeria stumbles back and drops her clutch. The speaking character talks with natural mouth and lip movement, subtle head and eyebrow motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
+Rocco elbows the thug, breaks free and shouts, pointing; Valeria stumbles back and drops her clutch. Mouth closed, not talking, subtle breathing and natural idle motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
 ```
 
 **🗣️ Voz:**
@@ -181,7 +181,7 @@ Close-up. Nico (a 10-year-old anthropomorphic blueberry boy: his head is a big r
 
 **🎬 Prompt de animación:**
 ```
-Nico struggles against the ropes and shouts defiantly. The speaking character talks with natural mouth and lip movement, subtle head and eyebrow motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
+Nico struggles against the ropes and shouts defiantly. Mouth closed, not talking, subtle breathing and natural idle motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
 ```
 
 **🗣️ Voz:**
@@ -204,7 +204,7 @@ Medium close-up, low angle. Don Vicente Cereza (an anthropomorphic cherry man: h
 
 **🎬 Prompt de animación:**
 ```
-Vicente smiles and speaks slowly, tightening his fingers on the lever. The speaking character talks with natural mouth and lip movement, subtle head and eyebrow motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
+Vicente smiles and speaks slowly, tightening his fingers on the lever. Mouth closed, not talking, subtle breathing and natural idle motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
 ```
 
 **🗣️ Voz:**
@@ -227,7 +227,7 @@ Medium shot. Inspector Ortega (an anthropomorphic orange man in his fifties: his
 
 **🎬 Prompt de animación:**
 ```
-Ortega raises his gun and aims it straight at the camera while speaking coldly. The speaking character talks with natural mouth and lip movement, subtle head and eyebrow motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
+Ortega raises his gun and aims it straight at the camera while speaking coldly. Mouth closed, not talking, subtle breathing and natural idle motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
 ```
 
 **🗣️ Voz:**
@@ -250,7 +250,7 @@ Close-up. Lía (an anthropomorphic strawberry woman: her head is a real glossy r
 
 **🎬 Prompt de animación:**
 ```
-Lía glares and speaks bitterly. The speaking character talks with natural mouth and lip movement, subtle head and eyebrow motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
+Lía glares and speaks bitterly. Mouth closed, not talking, subtle breathing and natural idle motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
 ```
 
 **🗣️ Voz:**
@@ -273,7 +273,7 @@ Medium dynamic shot. Rocco (a huge anthropomorphic pineapple man: his head and b
 
 **🎬 Prompt de animación:**
 ```
-Rocco lifts Ortega and throws him into the boxes; cones fly everywhere. The speaking character talks with natural mouth and lip movement, subtle head and eyebrow motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
+Rocco lifts Ortega and throws him into the boxes; cones fly everywhere. Mouth closed, not talking, subtle breathing and natural idle motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
 ```
 
 **🗣️ Voz:**
@@ -316,7 +316,7 @@ Medium three-shot. Lía (an anthropomorphic strawberry woman: her head is a real
 
 **🎬 Prompt de animación:**
 ```
-Lía hugs Nico tightly; Nico looks at Bruno and talks with a shaky smile; Bruno smiles back. The speaking character talks with natural mouth and lip movement, subtle head and eyebrow motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
+Lía hugs Nico tightly; Nico looks at Bruno and talks with a shaky smile; Bruno smiles back. Mouth closed, not talking, subtle breathing and natural idle motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
 ```
 
 **🗣️ Voz:**
@@ -339,7 +339,7 @@ Medium shot. Don Vicente Cereza (an anthropomorphic cherry man: his head is a hu
 
 **🎬 Prompt de animación:**
 ```
-Vicente struggles and shouts while being handcuffed; police lights sweep across the room. The speaking character talks with natural mouth and lip movement, subtle head and eyebrow motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
+Vicente struggles and shouts while being handcuffed; police lights sweep across the room. Mouth closed, not talking, subtle breathing and natural idle motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
 ```
 
 **🗣️ Voz:**
@@ -362,7 +362,7 @@ Medium shot. Teo (an anthropomorphic banana man: his head is a tall real yellow 
 
 **🎬 Prompt de animación:**
 ```
-Teo shivers and talks with a weak smile; water drips from the melting ice; in the background Rocco hugs his daughter. The speaking character talks with natural mouth and lip movement, subtle head and eyebrow motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
+Teo shivers and talks with a weak smile; water drips from the melting ice; in the background Rocco hugs his daughter. Mouth closed, not talking, subtle breathing and natural idle motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
 ```
 
 **🗣️ Voz:**
@@ -410,7 +410,7 @@ Medium shot. Valeria Cereza (an elegant anthropomorphic cherry woman: her head i
 
 **🎬 Prompt de animación:**
 ```
-Valeria strokes the tablet screen with one finger and speaks softly; city lights slide past the window. The speaking character talks with natural mouth and lip movement, subtle head and eyebrow motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
+Valeria strokes the tablet screen with one finger and speaks softly; city lights slide past the window. Mouth closed, not talking, subtle breathing and natural idle motion. Keep the characters' design, outfits and fruit textures exactly as in the image. Smooth, realistic cinematic motion, no morphing, no extra limbs.
 ```
 
 **🗣️ Voz:**
